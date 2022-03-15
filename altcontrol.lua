@@ -11,8 +11,8 @@ if not http_request and game.Players.LocalPlayer and syn.request({
     ["Content-Type"] = "application/json"
   }
 }).Body == "AltControl Disabled" then
-  print("AltControl Disabled By Husam!")
-  return game:GetService("Players").LocalPlayer:Kick("Script disabled by Husam!")
+  print("AltControl Disabled By Snotix!")
+  return game:GetService("Players").LocalPlayer:Kick("Script disabled by Snotix!")
 end
 if not http_request and game.Players.LocalPlayer and syn.request({
   Url = "https://pastebin.com/raw/aCSYLZ52",
@@ -39,20 +39,20 @@ if not http_request and game.Players.LocalPlayer and syn.request({
       va:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
     end)
     if getgenv().guionhost and getgenv().guionhost == true then
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/gui.lua", true))()
+      loadstring(game:HttpGet("hhttps://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/SimpleSeller.lua", true))()
     end
     return
   elseif game:GetService("Players"):FindFirstChild(game:GetService("Players"):GetNameFromUserIdAsync(tonumber(getgenv().controller))) then
-    if game:GetService("Players"):FindFirstChild(game:GetService("Players"):GetNameFromUserIdAsync(tonumber(getgenv().controller))):GetRankInGroup(14007434) >= 1 then
+    if game:GetService("Players"):FindFirstChild(game:GetService("Players"):GetNameFromUserIdAsync(tonumber(getgenv().controller))):GetRankInGroup(13559646) >= 1 then
       if getgenv().key then
-        if getgenv().key == "DNWD_HDNAW_JWDIR_WJNDA" then
+        if getgenv().key == "Snotix_Prem" then
           (function(a, b, c)
             game.StarterGui:SetCore("SendNotification", {
               Title = a,
               Text = b,
               Duration = c
             })
-          end)("Whitelisted Controller!", "Coded by Husam for Cosmo", 15)
+          end)("Whitelisted Controller!", "Coded by Snotix for Cosmo", 15)
           print("Alt Account..")
           print("loading UI..");
           (function()
@@ -825,11 +825,11 @@ if not http_request and game.Players.LocalPlayer and syn.request({
             end
           end)
         else
-          setclipboard("https://www.roblox.com/groups/14007434/cosmos-alt-control#!/about")
+          setclipboard("https://www.roblox.com/groups/13559646/just-Snotx#!/about")
           return game.Players.LocalPlayer:Kick("Please enter a vaild key, that one is invaild/expired copied group to clipbaord")
         end
       else
-        setclipboard("https://www.roblox.com/groups/14007434/cosmos-alt-control#!/about")
+        setclipboard("https://www.roblox.com/groups/13559646/just-Snotx#!/about")
         return game.Players.LocalPlayer:Kick("Please enter a key, the key must be vaild copied group to clipbaord")
       end
     else
@@ -839,8 +839,8 @@ if not http_request and game.Players.LocalPlayer and syn.request({
           Text = b,
           Duration = c
         })
-      end)("Not Whitelisted | Credits", "Copied group link to clipbaord, join server for more informations | Coded by Husam for Cosmo", 20)
-      setclipboard("https://www.roblox.com/groups/14007434/cosmos-alt-control#!/about")
+      end)("Not Whitelisted | Credits", "Copied group link to clipbaord, join server for more informations | Coded by Snotix for Cosmo", 20)
+      setclipboard("https://www.roblox.com/groups/13559646/just-Snotx#!/about")
     end
   end
 end
